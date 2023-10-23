@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="test_appR.Char.keiichi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test_appR.Char"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SolidBackgroundFillColorTertiaryBrush}">
+    <Page.Resources>
+        <Style TargetType="PivotItem">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="15,10,5,10">
+        <ScrollViewer>
+            <StackPanel Margin="0,0,315,0">
+                <InfoBar 
+                    VerticalAlignment="Top" 
+                    Width="Auto" Height="Auto"
+                    IsClosable="False" 
+                    IsOpen="True" 
+                    Severity="Error" 
+                    Title="Warning!" 
+                    Message="Refrain from closing the side bar and/or resizing the window. This UI will break (for now)." />
+                <!-- Title -->
+                <TextBlock Text="Maebara Keiichi" FontWeight="SemiBold" FontSize="28" />
+                <!-- JP Title-->
+                <TextBlock Text="前原 圭一" FontWeight="SemiBold" FontSize="16" Foreground="LightGray" />
+
+                <!-- Introduction (Normal Text) -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    Maebara Keiichi (前原 圭一) is one of the protagonists in the Higurashi no Naku Koro ni series. He serves as the protagonist of four Question Arcs: Onikakushi-hen; Watanagashi-hen; Tatarigoroshi-hen; and Taraimawashi-hen. He acts as the villain in Tsukiotoshi-hen. Other than Akasaka Mamoru in Himatsubushi-hen, he is the only male protagonist. He is a very sociable, charismatic boy with a lively attitude, and his talented tongue allows him to fit in the town quickly and make new friends. While his exact age is never explicitly stated, he is implied to be 14/15 in most media (or around 17 in the live-action adaptations) since he is a grade below Mion, who is facing her final year at their school before entering high school. It is confirmed in the visual novels that his birthday is in April, making him the same age as Mion for a couple of months each year.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                    Character Summary
+                </TextBlock>
+
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    Keiichi is the son of a famous artist, Maebara Ichirō, and his wife, Maebara Aiko, who recently moved to Hinamizawa after an array of unfortunate and awful events in his hometown. He and his family live in a large house, dubbed the "Maebara Mansion" by many of the villagers, built on property bought from the Sonozaki family. As a result, many of his friends believe that they must be quite rich; however, their house was only built large so that it would also contain his father's art gallery and allow for visitors.
+                    <LineBreak />
+                    <LineBreak />
+                    In Onikakushi-hen, paranoia drives him to believe that his friends are trying to kill him, which leads to his murder of Sonozaki Mion and Ryūgū Rena. Likewise, he also kills Hōjō Satoko's uncle, Hōjō Teppei and contemplates killing Takano Miyo in Tatarigoroshi-hen. However, in subsequent arcs, he gains inner strength and faith in his friends, enough to change the fate of Hinamizawa, as he is able to remember the events of previous worlds through similar events, which helps Rika to defeat fate.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                    Past
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    
+                    When Keiichi was little, he did not really excel at anything. However, an intelligence test he took to enter a cram school showed that he was actually very smart, but the reason he did not do that well in school was that he did poorly when he was asked to solve problems that had no meaning to him or connection to his life. He could solve difficult problems when phrased differently. After the intelligence test, he was placed into an advanced class in the cram school. His grades improved rapidly until they were among the best in his school. He worked hard for the feeling of superiority it gave him to have the best grades, as well as for the praise from his teachers, and, more importantly, his parents, and he was given allowance raises as a reward.
+                    <LineBreak />
+                    <LineBreak />
+                    However, the feeling of superiority gradually faded, and his parents and teachers stopped praising him, and yet their expectations of him just got higher and higher. In frustration, he bought an airsoft gun with his extra allowance. He started out shooting cardboard to relieve stress, but when he spotted the warning on the gun's box not to shoot at people, he decided to start shooting at smaller children as they walked home from school.
+                    <LineBreak />
+                    <LineBreak />
+                    Keiichi was never connected to the shootings, due to his clever ways of hiding and sneaking, but his actions did not go unnoticed, and parents were asked to never let their children go home alone. One day, however, a young girl was on her own, and Keiichi found her too easy a target to resist. The girl turned around as he was shooting and she was hit in the eye. Her pained screams seemed to register with Keiichi, as he froze in horror. He wanted to help her, but could not do so without revealing himself and thus ran away. He felt so guilty and panicked that he even researched what it would take for someone to go blind from an injury to the eye.
+                    <LineBreak />
+                    <LineBreak />
+                    Keiichi, in the end, confessed to being the shooter to his parents that night. His parents were greatly upset, but they also felt guilty for not hearing their son's "cry for help". For the sake of a new start, Keiichi's parents paid his bail and moved to a quiet town, Hinamizawa.
+                    <LineBreak />
+                    <LineBreak />
+                    This incident is quite possibly why Keiichi feels extra protective toward his friends, especially Satoko when she is abused in Tatarigoroshi-hen and Minagoroshi-hen.
+                    <LineBreak />
+                    <LineBreak />
+                    In Tsumihoroboshi-hen, his background is revealed by Rena when she asked Ōishi Kuraudo about each of her friends, much like Keiichi did in Onikakushi-hen.
+                    <LineBreak />
+                    <LineBreak />
+                    In Matsuribayashi-hen, it's revealed that Keiichi's greatest desire in Hinamizawa is to make a fresh start and this time become “the Maebara Keiichi I really wanted to be.” Miotsukushi-hen reveals that during the three days he was absent from Hinamizawa in the introduction to Onikakushi-hen, Keiichi visited the girl he injured in order to beg her forgiveness. Although initially reluctant, she forgave him and gave him the bullet that had been removed from her eye, which Keiichi subsequently carries with him to remind him to be a better person.
+                    </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                    Higurashi no Naku Koro ni Rei (ひぐらしのなく頃に令)
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                This is a current manga series which takes place in a time 35 years after the original story. Keiichi is an adult who married and had a son, Keitarō. He and his family moved to Tōkyō where he becomes a congressional secretary. Many in Hinamizawa hope he will become elected to the senate and help Hinamizawa become recognized as a world heritage site.
+                </TextBlock>
+                <!-- Footer -->
+                <Expander
+                Margin="0,10"
+                IsExpanded="False"
+                ExpandDirection="Up"
+                Header="From the Higurashi Fandom Wiki (2023)"
+                VerticalAlignment="Bottom"
+                IsEnabled="False"/>
+            </StackPanel>
+        </ScrollViewer>
+        
+        <!-- Information Side-bar -->
+
+        <StackPanel Margin="5,5,15,5" Orientation="Vertical" HorizontalAlignment="Right">
+            <!-- Image -->
+            <Pivot Title="" Margin="870,0,0,0">
+                <PivotItem Header="School" Margin="0,15,0,0">
+                    <Image x:Name="mainImg" Source="ms-appx:///Assets/Char/keiichi.png" Height="300"/>
+                </PivotItem>
+                <PivotItem Header="Casual" Margin="0,15,0,0">
+                    <Image Source="ms-appx:///Assets/Char/keiichiC.png" Height="300"/>
+                </PivotItem>
+                <PivotItem Header="Bat" Margin="0,15,0,0">
+                    <Image Source="ms-appx:///Assets/Char/keiichiB.png" Height="300"/>
+                </PivotItem>
+            </Pivot>
+
+            <!-- Info box -->
+            <Expander 
+                HorizontalAlignment="Right"     
+                VerticalAlignment="Top"
+                VerticalContentAlignment="Top"
+                Margin="5,5,0,5"
+                Width="300"
+                Height="300"
+                Header="Information"
+                IsExpanded="True">
+                <Expander.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0">
+                    <Bold>Nickname</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1">
+                    - K [by the Soul Brothers]
+                        </TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="1">
+                    - Magician of Words
+                        </TextBlock>
+                        <TextBlock TextWrapping="Wrap" Grid.Row="2" Grid.Column="1">
+                    - Kei-chan (圭ちゃん) <LineBreak/> [by Mion and Shion]
+                        </TextBlock>
+                        <TextBlock Grid.Row="3" Grid.Column="1">
+                    - KeiKei (once by Rika)
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="4">
+                    <Bold>Age</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="4">
+                    14
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="5">
+                    <Bold>Birthday</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="5">
+                    April 13, 1969
+                        </TextBlock>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+        </StackPanel>
+    </Grid>
+</Page>

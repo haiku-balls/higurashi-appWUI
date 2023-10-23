@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="test_appR.Char.rena"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test_appR.Char"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SolidBackgroundFillColorTertiaryBrush}">
+    <Page.Resources>
+        <Style TargetType="PivotItem">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="15,10,5,10">
+        <ScrollViewer>
+            <StackPanel Margin="0,0,320,0">
+                <InfoBar 
+                VerticalAlignment="Top" 
+                Width="Auto" Height="Auto"
+                IsClosable="False" 
+                IsOpen="True" 
+                Severity="Error" 
+                Title="Warning!" 
+                Message="Refrain from closing the side bar and/or resizing the window. This UI will break (for now)." />
+                <!-- Title -->
+                <TextBlock Text="Ryūgū Rena" FontWeight="SemiBold" FontSize="28" />
+                <!-- JP Title-->
+                <TextBlock Text="竜宮 レナ" FontWeight="SemiBold" FontSize="16" Foreground="LightGray" />
+
+                <!-- Introduction (Normal Text) -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Ryūgū Rena (竜宮 レナ) is one of the main characters in the Higurashi no Naku Koro ni series who acts as the protagonist of Tsumihorobo-hen and the antagonist of Tsukioto-hen, Onikaku-hen, and Onidama-hen. Rena is a signature character as she is featured more than once during the first anime season-opening, as well as appearing on most of the album and game covers. She appears in much of Higurashi's official art and even serves as something of a mascot for 07th Expansion.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Character Summary
+                </TextBlock>
+
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Rena attends the same grade as Keiichi, but she is a few months younger than him. Her birthday falls in July, and since nearly all of the arcs take place before July 1983, Rena has not yet turned 14.
+                <LineBreak/>
+                <LineBreak/>
+                Rena has an obsession with all things cute. In what the others call her "Cute Mode" (かぁいい・Kāii), she often tries to take such things home in her Take Home (お持ち帰り・omochikaeri) Mode even if they do not belong to her. Such things include the "Kenta-kun" doll, Furude Rika, Hanyū, Satoko, and any of the club members in cute punishment game outfits. She spends much of her time "treasure hunting" at the town's trash heap in search of cute things which often appeal only to her. In the trash heap, Rena has a secret base consisting of an old van she has filled with things she likes to which she retreats when distressed. Nevertheless, according to Mion, while Rena might seem cute herself, people should be careful not to anger her as she can become quite scary. Keiichi discovers this in an infamous scene in the Sound Novels, manga, and anime where she suddenly screams "Lie (嘘だ・うそだ・usoda)!"
+                <LineBreak/>
+                <LineBreak/>
+                Rena's parents are fashion designers. While she was born in Hinamizawa, her family soon moved away to Ibaraki for the sake of her mother's advancing career,  and she used her given first name "Reina (礼奈)." Her mother starts an affair with a co-worker. While Rena meets him and found him agreeable, she does not understand her mother's relationship with him until her mother asks her to come away with her to start a new family when she reveals that she is pregnant with the man's child. Rena refuses even though her mother threatens to never see her again. Rena's father is devastated, and Rena blames herself for not recognizing her mother's affair.
+                <LineBreak/>
+                <LineBreak/>
+                Rejecting her position as her mother's daughter, she begins to insist on being called "Rena" instead of "Reina." According to the Tsumihorobo-hen TIPS the removal of the "i" in her name was to "remove the icky things" (いやなこと・iyana koto), though later she realizes that "the 'incredible things' (いいこと・ii koto) also start with an 'i'." She remains very loyal to her father, and as revealed in Tsumihorobo-hen, she will go to violent lengths to protect him. She is very sensitive about the topic of Oyashiro-sama, who she believes cursed her for leaving Hinamizawa. She cuts herself trying to get rid of the "filthy blood" left in her by her mother that she imagines is filled with maggots.
+                <LineBreak/>
+                <LineBreak/>  
+                Before her return to Hinamizawa, Rena starts to behave erratically and viciously attacks three of her male classmates with a baseball bat. There is some implication that they instigated the incident since their families decide not to press charges. She also smashes all the windows in her school and was eventually hospitalized. Rena later claims that Oyashiro-sama broke out from her and spoke to her: "If you want to live, move back to Hinamizawa; that's the only way you'll be safe." These are all part of her own development of the Hinamizawa Syndrome, and her experiences allows her to bond with Hōjō Satoshi when he starts suffering from it. She will also describe or confirm the classic symptoms including hearing an extra footstep of something following, hearing a woman say "I'm sorry," and even feeling that Oyashiro-sama stands at the foot of the bed and stares down at night to other characters in different arcs.
+                <LineBreak/>
+                <LineBreak/>
+                In Tsumihorobo-hen, the scam artists Mamiya Rina and Hōjō Teppei target her father. In an attempt to protect her father and herself, Rena confronts Rina and ends up fighting and killing her in self-defense. She then leads Teppei out to the junkyard and kills him. Not long after this, Takano Miyo entrusts her with her scrapbook. Takano dies shortly after, but after reading Takano's scrapbook, Rena begins to question the nature of Oyashiro-sama and the honesty of her friends. She takes the school children of her school hostage, and only the intervention of Keiichi prevents her from becoming another fatality of the Hinamizawa Syndrome.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Personality
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    Rena initially appears sweet and friendly but can become quite scary when threatened or angry. In Onikaku-hen, recapitulated in Onidamashi-hen, she reacts strongly to one of Keiichi's remarks with the infamously deafeningly loud "Uso da! (嘘だ!・That's a lie!)." Though part of her extreme reaction may be imagined by Keiichi, who is suffering from the Hinamizawa Syndrome in this arc, Rena's reaction strongly suggests that she does indeed hate lies, especially from friends. Rena can become quite cunning and viciously cruel when she is determined. In Minagoroshi-hen she intimidates the village council and the Child Welfare staff without losing emotional control like Keiichi and Sonozaki Shion frequently do, although she does slam the table in anger when dealing with the former at one point while showing a furious expression that Keiichi describes as "demonic". During the last Watanagashi meeting of the village council, Rena gets into a violent fistfight with one of the elders. Keiichi often calls her the "quiet, blue flame that burns silently," referring to her capability of becoming incredibly powerful when push comes to shove, despite her seemingly girly and airheaded personality; in such situations, Rena will always be the instigator of and the most bluntly offensive in the fight, as observed in many instances: by Shion in Meakashi-hen and Minagoroshi-hen ("I wonder how you were in Ibaraki. You don't even hesitate to attack people!"); Keiichi in Watanagashi-hen; and Furude Rika in Minagoroshi-hen.
+                <LineBreak/>
+                <LineBreak/>
+                    Rena retains these abilities when she suffers from the Hinamizawa Syndrome. She reveals her capability for extreme cruelty in Tsumihorobo-hen when she holds the entire school hostage. Rena orders Keiichi to tie up all the students, including Satoko, Rika, and Mion. She viciously bludgeons Mion with her hatchet claiming that Mion "betrayed" her. She fully intends to kill all of the children and herself if her demands are not met. However, she does show remorse when Keiichi succeeds in calming her down with their fight on the roof.
+                <LineBreak/>
+                <LineBreak/>
+                    Mion describes Rena, and Rena is often portrayed, as being hostile towards people who make light of or express disbelief in Oyashiro-sama's Curse. This attitude is due to her experience with it and her actually correct belief that Oyashiro-sama exists. On the other hand, she, like Rika, often empathizes with and can identify people who are afflicted with advanced symptoms of Hinamizawa Syndrome. It is implied that she feels guilty for not listening to Satoshi's problems before he disappeared, and asks Keiichi to tell her his problems, most notably in Onikaku-hen, but as he was already afflicted with the Syndrome, he hallucinates that she was threatening him.
+                <LineBreak/>
+                <LineBreak/>
+                    When determined, Rena can be very perceptive, as she can somewhat understand people just by looking at their faces. She does admit directly that she can quickly "tell if ___'s telling the truth or not… just by looking into ___'s eyes." She is also able to form detailed and eerily accurate hypotheses of crime scenes based on evidence she observes.
+                <LineBreak/>
+                <LineBreak/>
+                    Rena possesses a signature "Kaa~ii Mōdo" (かぁいい モード) or "Cute Mode," a comic relief quirk which is instigated when she is embarrassed or when she finds something cute. Once she enters Kawaii Mode, Rena's senses are heightened to an extreme extent, making her inhumanly agile and vigorous. This causes frequent trouble for many of the club members, who have to expend all of their energy to barely control her; Keiichi and Mion have been knocked out cold a large number of times by Rena's flurries of punches, while Rika and Satoko have often been kidnapped when she progresses further to Take Home (お持ち帰り・omochikaeri) Mode, especially when they wear cute club punishment outfits. Satoko and Rika have learned to use Rena's Kawaii Mode switch to their advantages. By either crying to her or posing in an adorable fashion, they can manipulate whom Rena knocks out or make Rena can support them, thus giving them a huge advantage in eliminating competition easily in club games.
+                <LineBreak/>
+                <LineBreak/>
+                    During the first episode of Higurashi no Naku Koro ni Kai, an adult Rena appears to have been mentally affected for life due to being one of the few people who survived the events that occurred in Hinamizawa in the post-Tsumihorobo-hen world.
+                <LineBreak/>
+                <LineBreak/>
+                    The arc Satokowashi-hen contained in the new season reveal that she does attend university with Keiichi and Mion in 1988. As a late teenager, she retains her Cute and Take Home Modes as well as her flurry of punches.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                    Higurashi no Naku Koro ni Rei (ひぐらしのなく頃に令)
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    This is a current manga series which takes place in a time 35 years after the original story. Rena is an adult who married and left Hinamizawa, divorced, and returned with her son, Kihiro. In Oniokoshi-hen, she works for the village magazine in Okinomiya.
+                </TextBlock>
+                <!-- Footer -->
+                <Expander
+            Margin="0,10"
+            IsExpanded="False"
+            ExpandDirection="Up"
+            Header="From the Higurashi Fandom Wiki (2023)"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Information Side-bar -->
+
+        <StackPanel Margin="5,5,15,5" Orientation="Vertical" HorizontalAlignment="Right">
+            <!-- Image -->
+            <Pivot Title="" Margin="870,0,0,0">
+                <PivotItem Header="School" Margin="0,15,0,0">
+                    <Image x:Name="mainImg" Source="ms-appx:///Assets/Char/renaS.png" Height="300"/>
+                </PivotItem>
+                <PivotItem Header="Casual" Margin="0,15,0,0">
+                    <Image Source="ms-appx:///Assets/Char/renaC.png" Height="300"/>
+                </PivotItem>
+                <PivotItem Header="Nata" Margin="0,15,0,0">
+                    <Image Source="ms-appx:///Assets/Char/renaK.png" Height="300"/>
+                </PivotItem>
+            </Pivot>
+
+            <!-- Info box -->
+            <Expander 
+            HorizontalAlignment="Right"     
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Top"
+            Margin="5,5,0,5"
+            Width="300"
+            Height="330"
+            Header="Information"
+            IsExpanded="True">
+                <Expander.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0">
+                            <Bold>Alt. Name</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1">
+                            - Ryūgū Reina, 竜宮 礼奈
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="1">
+                            <Bold>Nickname</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="1">
+                            - Cleaver Girl 
+                            <LineBreak/>
+                            (鉈女, nata onna)
+                        </TextBlock>
+                        <TextBlock TextWrapping="Wrap" Grid.Row="2" Grid.Column="1">
+                            - Cute Mode <LineBreak/> (かぁいい・kaa~ii mōdo)
+                        </TextBlock>
+                        <TextBlock Grid.Row="3" Grid.Column="1">
+                            - Take Home <LineBreak/> (お持ち帰りぃ〜!・<LineBreak/> Omochikaerii~!) Mode
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="4">
+                            <Bold>Age</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="4">
+                            13
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="5">
+                            <Bold>Birthday</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="5">
+                            July 28, 1969
+                        </TextBlock>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+        </StackPanel>
+    </Grid>
+</Page>
