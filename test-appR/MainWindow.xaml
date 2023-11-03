@@ -41,9 +41,10 @@
                     <NavigationViewItem.MenuItems>
                         <NavigationViewItem Content="Keiichi" Icon="Contact" ToolTipService.ToolTip="Keiichi" Tag="keiichi_nav"/>
                         <NavigationViewItem Content="Rena" Icon="Contact" ToolTipService.ToolTip="Rena" Tag="rena_nav"/>
+                        <NavigationViewItem Content="Mion" Icon="Contact" ToolTipService.ToolTip="Mion" Tag="mion_nav"/>
                     </NavigationViewItem.MenuItems>
-
                 </NavigationViewItem>
+                <NavigationViewItem Content="Soundtrack" Icon="MusicInfo" Tag="ost_nav" />
             </NavigationView.MenuItems>
             <!--
             <NavigationView.FooterMenuItems>

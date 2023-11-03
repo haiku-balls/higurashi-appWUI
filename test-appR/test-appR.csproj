@@ -10,17 +10,26 @@
     <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
+    <PackageId>higurashi_wiki_app</PackageId>
+    <Title>Higurashi Wiki WinUI</Title>
+    <Authors>Haiku</Authors>
+    <Description>Displays information about Higurashi using WinUI.</Description>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\Char\keiichiB.png" />
     <None Remove="Assets\Char\keiichiC.png" />
+    <None Remove="Assets\Char\mionC.png" />
+    <None Remove="Assets\Char\mionS.png" />
     <None Remove="Assets\Char\renaC.png" />
     <None Remove="Assets\Char\renaK.png" />
     <None Remove="Assets\Char\renaS.png" />
     <None Remove="Assets\keiichi.png" />
     <None Remove="Char\keiichi.xaml" />
+    <None Remove="Char\mion.xaml" />
     <None Remove="Char\rena.xaml" />
     <None Remove="homePage.xaml" />
+    <None Remove="MainWindow.xaml" />
     <None Remove="settingPage.xaml" />
   </ItemGroup>
 
@@ -82,9 +91,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Update="Assets\Char\keiichi.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -92,6 +98,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="Assets\Char\keiichiC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\mionC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\mionS.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="Assets\Char\renaC.png">
@@ -103,6 +115,11 @@
     <Content Update="Assets\Char\renaS.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Char\mion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <!-- 

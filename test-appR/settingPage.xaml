@@ -10,7 +10,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <InfoBar x:Name="settingsInfoBar" VerticalAlignment="Top" Width="Auto" Height="Auto" Margin="10,10,10,10" IsClosable="False" IsOpen="True" Severity="Informational" Title="Note!" Message="To start, click the start button above! Then go ahead and minimize the window." />
-        <Expander x:Name="versionExpander" IsEnabled="False" IsExpanded="False" ExpandDirection="Up" VerticalAlignment="Bottom" Header="Version [n/a]" Margin="10,0,10,10" Width="325" MaxWidth="325" />
+        <InfoBar 
+            x:Name="settingsInfoBar" 
+            VerticalAlignment="Top" 
+            Width="Auto" 
+            Height="Auto" 
+            Margin="10,10,10,10" 
+            IsClosable="False" 
+            IsOpen="True" 
+            Severity="Informational" 
+            Title="Note!" 
+            Message="To start, click the start button above! Then go ahead and minimize the window." />
+        <Expander 
+            x:Name="versionExpander" 
+            Header="Version [n/a]" 
+            IsEnabled="False" 
+            IsExpanded="False" 
+            ExpandDirection="Up" 
+            VerticalAlignment="Bottom" 
+            Margin="10,0,10,10" 
+            Width="325" 
+            MaxWidth="325" />
     </Grid>
 </Page>
