@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="test_appR.Char.rika"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test_appR.Char"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SolidBackgroundFillColorTertiaryBrush}">
+
+    <Page.Resources>
+        <Style TargetType="PivotItem">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="15,10,5,10">
+        <ScrollViewer>
+            <StackPanel Margin="0,0,315,0">
+                <InfoBar 
+                VerticalAlignment="Top" 
+                Width="Auto" Height="Auto"
+                IsClosable="False" 
+                IsOpen="True" 
+                Severity="Error" 
+                Title="Warning!" 
+                Message="Refrain from closing the side bar and/or resizing the window. This UI will break (for now)." />
+                <InfoBar 
+                    x:Name="worryBanner"
+                    VerticalAlignment="Top" 
+                    Width="Auto" Height="Auto"
+                    IsClosable="False" 
+                    IsOpen="True"
+                    Visibility="Collapsed"
+                    Severity="Warning" 
+                    Title="Anti-Jail Mode." 
+                    Message="This is where you make an excuse that technically, she's thousands of years old because of her time looping. This is also where you go to jail. That's a child." />
+                <!-- Title -->
+                <TextBlock Text="Furude Rika" FontWeight="SemiBold" FontSize="28" />
+                <!-- JP Title-->
+                <TextBlock Text="古手 梨花" FontWeight="SemiBold" FontSize="16" Foreground="LightGray" />
+
+                <!-- Introduction (Normal Text) -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Furude Rika (古手 梨花) is ultimately the true main protagonist of the Higurashi no Naku Koro ni series. She is the daughter of the late shinto priest of Hinamizawa. She is the current miko/kannushi, or shrine maiden/priestess, of the Furude Shrine, appearing in miko garb for her part of the Watanagashi Festival. She appears as the protagonist of Minagoroshi-hen.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Character Summary
+                </TextBlock>
+
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Rika seems like little more than a secondary character for much of the first half of Higurashi. As the story progresses, however, viewers learn that she is actually at the heart of most of the strange events, as her death is the trigger for the Great Hinamizawa Disaster (excluding Watanagashi-hen and Meakashi-hen) and following incidents. Despite only being killed five times on-screen, dialogue eventually confirms that she has been killed once for every arc (until Matsuribayashi-hen and Miotsukushi-hen) and all other unseen worlds.
+<LineBreak/>
+<LineBreak/>
+The villagers of Hinamizawa hold Rika in high esteem, as not only is she the only daughter of the Furude clan, one of the three great houses of Hinamizawa, she is also believed to be the reincarnation of the local deity Oyashiro-sama. Although Rika is entitled to attend and have a voice in village meetings due to her family status, she is not required to attend because of her young age. She lives with her classmate and best friend, Hōjō Satoko, in a small house by the Furude Shrine.
+<LineBreak/>
+<LineBreak/>
+In the third season of the anime, an adolescent Rika wears a school uniform shirt with the same crest Shion wears in Curse Deceiving Chapter Part Three of the same season's Tataridamashi-hen, which suggests that Rika eventually attends St. Lucia Academy. The will ultimately be confirmed. The first episode of that season's Nekodamashi-hen reveals that five years have passed since the events of Matsuribayashi-hen in 1983.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Personality
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Rika often seems wise and polite beyond her years. As a very young child during Himatsubushi-hen (which is set in June 1978), she predicted her own death in June 1983 to the visiting Akasaka Mamoru. Childish Rika has a tendency to speak using "cute" phrases; including sound effects and nonsense words such as "nipaa,"mii," cat sounds and saying "pachi pachi" (clap clap) while clapping her hands, all of which drives the cute-loving Ryūgū Rena wild. To add to her "cute" and feminine manner, Rika seems to use her cute appearance to win some club games and she refers to herself with the pronoun "boku," which, although generally used by boys, is considered extremely cute when used by young Japanese girls. She does not address anyone with honorifics. In Japanese culture, this would be considered incredibly rude and even sometimes degrading, but being the Furude miko, no one seems to mind much. In the English translation of the manga she addresses everyone, regardless of age or gender, as "sir," often ending her sentences with it. She enjoys drinking wine and eating spicy foods, to Hanyū's displeasure.
+                </TextBlock>
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                    True Personality
+                </TextBlock>
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    When revealing her True Personality, Rika's cuteness disappears, and she turns cynical, apathetic and more mature. She switches pronouns from "boku" to "watashi" and her voice drops to a grown woman's. This is clear in the anime where the same voice actress switches from a child's to an adult's voice. In the Sound Novel and manga, she uses more mature language which other characters occasionally notice. Since this is the persona and voice Rika uses when thinking to herself, narrating events, and when speaking to Hanyū, it can be assumed it is her real personality, which she keeps under wraps to avoid scaring her friends. For example, in Matsuribayashi-hen when she discusses with Hanyū her decision to take an active part in the world, Rika suggests that perhaps she is seeing Hanyū's true form. She has this conversation in her adult voice. Rika's second character song, S.A.G.A. ~Rinne no Hate ni~, is sung almost entirely with her True Personality. This personality is also blunt and occasionally rude to people including adults.
+                </TextBlock>
+                <!-- Footer -->
+                <Expander
+            Margin="0,10"
+            IsExpanded="False"
+            ExpandDirection="Up"
+            Header="From the Higurashi Fandom Wiki (2023)"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Information Side-bar -->
+
+        <StackPanel Margin="5,5,15,5" Orientation="Vertical" HorizontalAlignment="Right">
+            <!-- Image -->
+            <Pivot Title="" Margin="870,0,0,0">
+                <PivotItem Header="School" Margin="0,15,0,0">
+                    <Image x:Name="mainImg" Source="ms-appx:///Assets/Char/rikaS.png" Height="300"/>
+                </PivotItem>
+                <PivotItem Header="Casual" Margin="0,15,0,0">
+                    <Image Source="ms-appx:///Assets/Char/rikaC.png" Height="300"/>
+                </PivotItem>
+            </Pivot>
+
+            <!-- Info box -->
+            <Expander 
+            HorizontalAlignment="Right"     
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Top"
+            Margin="5,5,0,5"
+            Width="300"
+            Height="330"
+            Header="Information"
+            IsExpanded="True">
+                <Expander.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0">
+                            <Bold>Nickname</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Row="0" Grid.Column="1">
+                            - "R" (by Tōkyō)
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="1">
+                            <Bold>Age</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="1">
+                            6 - 16 [11 in 1983]
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="2">
+                            <Bold>Birthday</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="2">
+                         	August 21, 1971
+                        </TextBlock>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+        </StackPanel>
+    </Grid>
+</Page>

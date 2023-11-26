@@ -15,16 +15,17 @@
         </Grid.RowDefinitions>
         <Grid x:Name="AppTitleBar">
             <Image
-                   HorizontalAlignment="Left"
-                   Width="24" Height="24"
-                   Margin="5,0"/>
+                Source="Assets/Square44x44Logo.targetsize-256.png"
+                HorizontalAlignment="Left"
+                Width="24" Height="24"
+                Margin="5,0"/>
             <TextBlock x:Name="AppTitleBarTextBlock"
-                       TextWrapping="NoWrap"
-                       Style="{StaticResource CaptionTextBlockStyle}"
-                       VerticalAlignment="Center"
-                       Margin="30,-2,0,0">
+                    TextWrapping="NoWrap"
+                    Style="{StaticResource CaptionTextBlockStyle}"
+                    VerticalAlignment="Center"
+                    Margin="30,-2,0,0">
                 <Span>
-                    Higurashi Wiki App <Bold>PREVIEW</Bold>
+                    Higurashi Wiki App
                 </Span>
             </TextBlock>
         </Grid>
@@ -42,14 +43,17 @@
                         <NavigationViewItem Content="Keiichi" Icon="Contact" ToolTipService.ToolTip="Keiichi" Tag="keiichi_nav"/>
                         <NavigationViewItem Content="Rena" Icon="Contact" ToolTipService.ToolTip="Rena" Tag="rena_nav"/>
                         <NavigationViewItem Content="Mion" Icon="Contact" ToolTipService.ToolTip="Mion" Tag="mion_nav"/>
+                        <NavigationViewItem Content="Shion" Icon="Contact" ToolTipService.ToolTip="Shion" Tag="shion_nav"/>
+                        <NavigationViewItem Content="Satoko" Icon="Contact" ToolTipService.ToolTip="Satoko" Tag="satoko_nav"/>
+                        <NavigationViewItem Content="Rika" Icon="Contact" ToolTipService.ToolTip="Rika" Tag="rika_nav"/>
+                        <NavigationViewItem Content="Hanyu" Icon="Contact" ToolTipService.ToolTip="Hanyu" Tag="hanyu_nav"/>
                     </NavigationViewItem.MenuItems>
                 </NavigationViewItem>
                 <NavigationViewItem Content="Soundtrack" Icon="MusicInfo" Tag="ost_nav" />
             </NavigationView.MenuItems>
-            <!--
             <NavigationView.FooterMenuItems>
-                <NavigationViewItem x:Name="intDevNavView" Content="Dev" Tag="dev" Icon="Repair" IsEnabled="False" />
-            </NavigationView.FooterMenuItems> -->
+                <NavigationViewItem x:Name="aboutNavView" Content="Info" Tag="about" Icon="Help" />
+            </NavigationView.FooterMenuItems>
             <Grid Background="{StaticResource SolidBackgroundFillColorQuarternaryBrush}">
                 <Frame 
                     x:Name="contentFrame" 

@@ -25,6 +25,16 @@
                     Severity="Error" 
                     Title="Warning!" 
                     Message="Refrain from closing the side bar and/or resizing the window. This UI will break (for now)." />
+                <InfoBar 
+                    x:Name="worryBanner"
+                    VerticalAlignment="Top" 
+                    Width="Auto" Height="Auto"
+                    IsClosable="False" 
+                    IsOpen="True"
+                    Visibility="Collapsed"
+                    Severity="Informational" 
+                    Title="Anti-Jail Mode." 
+                    Message="ur gay." />
                 <!-- Title -->
                 <TextBlock Text="Maebara Keiichi" FontWeight="SemiBold" FontSize="28" />
                 <!-- JP Title-->

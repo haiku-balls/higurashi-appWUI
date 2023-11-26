@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="test_appR.Char.shion"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test_appR.Char"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SolidBackgroundFillColorTertiaryBrush}">
+
+    <Page.Resources>
+        <Style TargetType="PivotItem">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="15,10,5,10">
+        <ScrollViewer>
+            <StackPanel Margin="0,0,315,0">
+                <InfoBar 
+                VerticalAlignment="Top" 
+                Width="Auto" Height="Auto"
+                IsClosable="False" 
+                IsOpen="True" 
+                Severity="Error" 
+                Title="Warning!" 
+                Message="Refrain from closing the side bar and/or resizing the window. This UI will break (for now)." />
+                <InfoBar 
+                    x:Name="worryBanner"
+                    VerticalAlignment="Top" 
+                    Width="Auto" Height="Auto"
+                    IsClosable="False" 
+                    IsOpen="True"
+                    Visibility="Collapsed"
+                    Severity="Warning" 
+                    Title="Anti-Jail Mode." 
+                    Message="14. 14 years in prison." />
+                <!-- Title -->
+                <TextBlock Text="Sonozaki Shion" FontWeight="SemiBold" FontSize="28" />
+                <!-- JP Title-->
+                <TextBlock Text="園崎 詩音" FontWeight="SemiBold" FontSize="16" Foreground="LightGray" />
+
+                <!-- Introduction (Normal Text) -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Sonozaki Shion (園崎 詩音) is one of the main characters in the Higurashi no Naku Koro ni series, Sonozaki Mion's twin sister, and the antagonist of the question arc Watanagashi-hen and the protagonist of its answer arc Meakashi-hen. She is well known for her spectacular mental breakdown and the ensuing bloodbath in those arcs, her mischievous nature when it comes to teasing the other club members, as well as for her relationship with Hōjō Satoshi, which has been the subject of at least four different songs. She and her sister are implied to be 14 in most media (or around 17 in the live-action adaptations) as of June 1983. The new anime-only arc Satokowashi-hen confirms that in June, 1984, Mion has entered high school which puts the twins at 15 in 1984.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Character Summary
+                </TextBlock>
+
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                    Shion is the actual older twin sister of the Sonozaki twins. She was sent to St. Lucia's Boarding School, but escaped in 1982 with the help of Kasai Tatsuyoshi, a man who acts as a bodyguard to the Sonozaki family.
+                    <LineBreak/>
+                    <LineBreak/>
+                    Shion is the main protagonist in Meakashi-hen, which appears to be Watanagashi-hen from her perspective, though different events mean the two are actually separate arcs. While in Meakashi-hen she blames Hōjō Satoko for Satoshi's suffering, in the subsequent arcs the two develop a sister-like bond and Shion even risks her life to save her to keep her promise to Satoshi to look after Satoko. In Matsuribayashi-hen, Rika explains that Shion's early dislike for Satoko in the years before 1983 and her learning how to control her inner demon afterwards are both momentous events for Shion to avoid being a victim of the Hinamizawa Syndrome.
+                    <LineBreak/>
+                    <LineBreak/>
+                    While she acts as the younger twin to Sonozaki Mion, in truth, she was born as the elder sister with the name "Mion." Due to the sisters swapping places at a young age, Mion, named "Shion," received the oni tattoo which marks the presumptive heir to the Sonozaki family. Since that event, the sisters have maintained that role replacement: she became the younger "Shion" while her younger sister became "Mion." They still switch roles or impersonate the other which leads to some of the mystery of the earlier arcs.
+                    <LineBreak/>
+                    <LineBreak/>
+                    Shion works as a waitress at the Angel Mort (エンジェルモート・anjeru mōto) restaurant and is also the manager's assistant for the Hinamizawa Fighters little league team.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Personality
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+                Despite her being seemingly more girly and refined than Mion, thanks to schooling at St. Lucia, she is incredibly shrewd, manipulative, and delinquent, more so than Mion. She hated St. Lucia, calling it a "factory for manufacturing ladies" and got in trouble with the administration numerous times for various misdemeanors. To escape, she studies all of the school's security systems, guard schedules, and behaviors of the administration staff, to the point where she manipulates them by propagating a rumor of her having a love affair with a male teacher. In Watanagashi-hen, she enjoys teasing Mion and making her jealous by taking control of Keiichi whenever she has the chance. In Meakashi-hen, when the motorcyclists attack her, she is capable of mapping out how to ruin their reputations in numerous ways to create the most entertaining and interesting outcome for her own enjoyment. Also in Meakashi-hen, Shion easily manipulates the whole village of Hinamizawa. When Furude Rika, Hōjō Satoko, and Kimiyoshi Kiichirō go missing, Shion exploits the resulting paranoia to her own advantage in order to lure all of her targets to their deaths in perfect fashion and fulfill her own "promise" to Satoshi. Shion is not immune to embarrassing situations herself however, as shown by her mother teasing her in Minagoroshi-hen and accidentally making a fool of herself by unwillingly luring the Yamainu in Matsuribayashi-hen.
+<LineBreak/>
+<LineBreak/>
+Like Mion, Shion often behaves as a very cheerful and friendly girl. In the arcs where she is protective of Satoko, Shion acts like her older sister by both helping out whenever she can and teasing as a sister would. She has a very supportive personality and openly supports Satoshi, convincing the store owner selling the large stuffed bear he wanted to give to Satoko for her birthday to hold it for him to allow him to earn the money to pay for it. Under the influence of the Hinamizawa Syndrome, Shion will become violent as her paranoia grows as it did in Keiichi and Rena.
+<LineBreak/>
+<LineBreak/>
+In Watanagashi-hen and Meakashi-hen, Shion tends to become envious very easily and frequently, which contributes to her progression of the Hinamizawa Syndrome, her violent insanity, and how she chooses to seduce the victims "to make sure they get what they deserve." In Meakashi-hen, Shion's inner "demon" awoke out of jealousy when she was listening to Mion talk about Keiichi; she found it unfair for Mion to have a living crush nearby when her own crush was possibly dead. Other things that drive Shion's jealousy include Mion's status as the next heir of the Sonozaki family, Rika's status as the reincarnation of Oyashiro-Sama, Satoshi's protection and love for Satoko, and, as Shion describes it, Ryūgū Rena's own inner "demon" which far surpasses her own in terms of power and monstrosity: "In the heavy downpour, I saw those eyes. It was like a situation where, because I knew how to play tennis, people admired me for being able to beat other novices at tennis. But then I met a girl who said she also played tennis; she even took private lessons. When I competed against her, she completely beat me, and I felt humiliated when everyone began to admire how she was much better than me. To me, that was Rena. I could sense her aura, that her demon was much more fearsome than my own."
+<LineBreak/>
+<LineBreak/>
+Despite being cold to hating Satoko in Meakashi-hen, Shion also has the capability to become fiercely protective of her. In Minagoroshi-hen, when the club members were trying to plan out how to save Satoko from her abusive uncle, Hōjō Teppei, she threatens to kill everyone who stands in her way of killing Teppei, even those whom she cares for. However, Keiichi points out that in reality she doesn't actually want to do that and that she instead just wants Satoko to return without anyone she cares for getting hurt or going to jail, in fact she calms down when Keiichi allows her to vent by bashing his head with a chair, whereupon she stops offering murder as a solution and the next day agrees to help him bring Teppei to justice using legal means, feeling embarrassed when Keiichi teases her about her previous violent behavior, to which she responds that she's serious now and even becomes passionate about convincing the child welfare center employees about saving Satoko. She also fights the Yamainu with her friends at the end by using her stun gun to temporarily incapacitate them instead of killing them. In this arc and possibly others, Shion is willing to die for Satoko. Later in Minagoroshi-hen, when she pleads to Takano to kill her but spare Satoko, she agrees and kills Shion by shooting her in the head, though Takano later kills Satoko anyway after she answers a question. In Matsuribayashi-hen, she is willing to sacrifice her life so that her friends can escape from the Yamainu, and even though she has access to firearms, not once does she kill her pursuers and instead just tries to delay them or disarm them later on when she and Kasai use a sniper rifle. This is a sharp contrast to the far more aggressive Shion in the first half of the previous arc, showing that she can now control her emotions and make rational decisions even when her loved ones are in danger, as she even recalls the events of Meakashi-hen and treats them seriously, much like Rena and Keiichi did with their respective personal arcs in Minagoroshi-hen to learn from their own mistakes.
+                </TextBlock>
+                <!-- Section Title (Wiki) -->
+                <TextBlock Padding="0,20,0,0" FontWeight="SemiBold" FontSize="20">
+                Higurashi no Naku Koro ni Rei (ひぐらしのなく頃に令)
+                </TextBlock>
+                <!-- Body -->
+                <TextBlock Padding="0,20,0,0" TextWrapping="Wrap" FontSize="16">
+This is a current manga series which takes place in a time 35 years after the original story. In both chapters, Shion married Satoshi. As noted in his section, nothing more is currently known about them.
+                </TextBlock>
+                <!-- Footer -->
+                <Expander
+            Margin="0,10"
+            IsExpanded="False"
+            ExpandDirection="Up"
+            Header="From the Higurashi Fandom Wiki (2023)"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Information Side-bar -->
+
+        <StackPanel Margin="5,5,15,5" Orientation="Vertical" HorizontalAlignment="Right">
+            <!-- Image -->
+            <Pivot Title="" Margin="870,0,0,0">
+                <PivotItem Header="School" Margin="0,15,0,0">
+                    <Image x:Name="mainImg" Source="ms-appx:///Assets/Char/shionS.png" Height="300"/>
+                </PivotItem>
+                <PivotItem Header="Casual" Margin="0,15,0,0">
+                    <Image Source="ms-appx:///Assets/Char/shionC.png" Height="300"/>
+                </PivotItem>
+            </Pivot>
+
+            <!-- Info box -->
+            <Expander 
+            HorizontalAlignment="Right"     
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Top"
+            Margin="5,5,0,5"
+            Width="300"
+            Height="330"
+            Header="Information"
+            IsExpanded="True">
+                <Expander.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0">
+                            <Bold>Alt. Name</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1">
+                            - Sonozaki Mion, 園崎 魅音
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="1">
+                            <Bold>Nickname</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="1">
+                            - Shii-chan (詩ぃちゃん)
+                             <LineBreak/>
+                             by Rena
+                        </TextBlock>
+                        <TextBlock TextWrapping="Wrap" Grid.Row="2" Grid.Column="1">
+                        - Shii (詩ぃ) by Rika
+                        </TextBlock>
+                        <TextBlock Grid.Row="3" Grid.Column="1">
+                        - Nee-nee (ねーねー) 
+                            <LineBreak/>
+                             by Satoko
+                        </TextBlock>
+                        <TextBlock Grid.Row="4" Grid.Column="1">
+                        - Onee (お姉, Big sis)
+                        <LineBreak/>
+                        by Shion
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="5">
+                         <Bold>Age</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="5">
+                        14
+                        </TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="6">
+                        <Bold>Birthday</Bold>
+                        </TextBlock>
+                        <TextBlock Grid.Column="1" Grid.Row="6">
+                        July 10, 1968
+                        </TextBlock>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+        </StackPanel>
+    </Grid>
+</Page>

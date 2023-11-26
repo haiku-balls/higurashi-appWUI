@@ -20,7 +20,30 @@
             IsOpen="True" 
             Severity="Informational" 
             Title="Note!" 
-            Message="To start, click the start button above! Then go ahead and minimize the window." />
+            Message="eek! This is not finished at all..." />
+        <StackPanel Margin="0,65,0,0">
+            <TextBlock Margin="15,5,10,10" FontSize="25" FontWeight="Bold">
+                    <Span>General</Span>
+            </TextBlock>
+            <!-- Sub-header -->
+            <TextBlock Margin="15,0,10,10" FontSize="15" FontWeight="SemiBold">
+                    <Span><Italic>Hover over an option for more info...</Italic></Span>
+            </TextBlock>
+            <ToggleSwitch Header="Anti-Jail Mode" Margin="15,0,10,10" x:Name="jailSwitch" Toggled="jailSwitch_Toggled">
+                <ToolTipService.ToolTip>
+                    <TextBlock FontStyle="Italic">
+                        Warns you whether a character is underaged.<LineBreak/>
+                        This will save you from making poor jokes. <LineBreak/>
+                        (This is pure satire)
+                    </TextBlock>
+                </ToolTipService.ToolTip>
+            </ToggleSwitch>
+            <!-- Sub-header -->
+            <TextBlock Margin="15,0,10,10" FontSize="15" FontWeight="SemiBold">
+                <Italic>Special Modes</Italic>
+                    <Span FontSize="12"><LineBreak/>Enabling these might disable certain settings.</Span>
+            </TextBlock>
+        </StackPanel>
         <Expander 
             x:Name="versionExpander" 
             Header="Version [n/a]" 

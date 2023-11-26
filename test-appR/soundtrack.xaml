@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="test_appR.soundtrack"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test_appR"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SolidBackgroundFillColorTertiaryBrush}">
+
+    <Grid>
+        <StackPanel Margin="5,5,5,5">
+            <InfoBar 
+                x:Name="unfinishedInfoBar" 
+                VerticalAlignment="Top" 
+                Width="Auto" 
+                Height="Auto" 
+                Margin="5,5,5,5" 
+                IsClosable="False" 
+                IsOpen="True" 
+                Severity="Informational" 
+                Title="Note!" 
+                Message="eek! This is not finished at all..." />
+            <InfoBar 
+                x:Name="mediaPlayBackWarnBar" 
+                VerticalAlignment="Top" 
+                Width="Auto" 
+                Height="Auto" 
+                Margin="5,5,5,5" 
+                IsClosable="False" 
+                IsOpen="True" 
+                Severity="Warning" 
+                Title="Warning!" 
+                Message="Don't navigate off this page without stopping playback. Unless you want to listen to the OST eternally." />
+            <TextBlock Margin="15,5,10,10" FontSize="25" FontWeight="Bold">
+                <Span>Favorite Tracks!</Span>
+            </TextBlock>
+            <!-- Track -->
+            <TextBlock Margin="15,0,10,10" FontSize="15" FontWeight="SemiBold">
+                Higurashi no Naku Koro ni: Kai ~ Shizu
+            </TextBlock>
+            <TextBlock Margin="15,0,10,10" FontSize="12" FontWeight="SemiBold">
+                This track is... just beautiful. I love Kai's ending.
+            </TextBlock>
+            <Button Margin="15,0,10,10" Content="Play" Click="track1_Click" />
+            <!-- Track END -->
+            <!-- Track -->
+            <TextBlock Margin="15,0,10,10" FontSize="15" FontWeight="SemiBold">
+                Higurashi no Naku Koro ni: Kai ~ Shitsui
+            </TextBlock>
+            <TextBlock Margin="15,0,10,10" FontSize="12" FontWeight="SemiBold">
+                It's almost happy... and sad at the exact same time. Beautiful track.
+            </TextBlock>
+            <Button Margin="15,0,10,10" Content="Play" Click="track2_Click" />
+            <!-- Track END -->
+        </StackPanel>
+        <Button VerticalAlignment="Bottom" Margin="10,0,10,70" x:Name="stopPlayer" Click="stopPlayer_Click">Stop</Button>
+        <Expander 
+            x:Name="playingText" 
+            Header="Currently Playing: Nothing!" 
+            IsEnabled="False" 
+            IsExpanded="False" 
+            ExpandDirection="Up" 
+            VerticalAlignment="Bottom" 
+            Margin="10,0,10,10" 
+            Width="325" 
+            MaxWidth="325" />
+    </Grid>
+</Page>

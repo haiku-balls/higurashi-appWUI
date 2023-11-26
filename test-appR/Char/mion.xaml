@@ -25,6 +25,16 @@
                     Severity="Error" 
                     Title="Warning!" 
                     Message="Refrain from closing the side bar and/or resizing the window. This UI will break (for now)." />
+                <InfoBar 
+                    x:Name="worryBanner"
+                    VerticalAlignment="Top" 
+                    Width="Auto" Height="Auto"
+                    IsClosable="False" 
+                    IsOpen="True"
+                    Visibility="Collapsed"
+                    Severity="Warning" 
+                    Title="Anti-Jail Mode." 
+                    Message="14 years old buddy." />
                 <!-- Title -->
                 <TextBlock Text="Sonozaki Mion" FontWeight="SemiBold" FontSize="28" />
                 <!-- JP Title-->

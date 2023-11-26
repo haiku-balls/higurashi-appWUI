@@ -15,8 +15,16 @@
     <Authors>Haiku</Authors>
     <Description>Displays information about Higurashi using WinUI.</Description>
     <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>Re_pc_sch.ico</ApplicationIcon>
+    <PackageCertificateThumbprint>52D1A8840769A60947717DCF18992BA6548826EA</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>test-appR_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Assets\BGM\shitsui.mp3" />
+    <None Remove="Assets\BGM\shizu.mp3" />
+    <None Remove="Assets\Char\hanyuG.png" />
+    <None Remove="Assets\Char\hanyuS.png" />
     <None Remove="Assets\Char\keiichiB.png" />
     <None Remove="Assets\Char\keiichiC.png" />
     <None Remove="Assets\Char\mionC.png" />
@@ -24,13 +32,26 @@
     <None Remove="Assets\Char\renaC.png" />
     <None Remove="Assets\Char\renaK.png" />
     <None Remove="Assets\Char\renaS.png" />
+    <None Remove="Assets\Char\rikaC.png" />
+    <None Remove="Assets\Char\rikaS.png" />
+    <None Remove="Assets\Char\satokoC.png" />
+    <None Remove="Assets\Char\satokoS.png" />
+    <None Remove="Assets\Char\shionC.png" />
+    <None Remove="Assets\Char\shionS.png" />
     <None Remove="Assets\keiichi.png" />
+    <None Remove="Assets\programIcon.ico" />
+    <None Remove="Char\hanyu.xaml" />
     <None Remove="Char\keiichi.xaml" />
     <None Remove="Char\mion.xaml" />
     <None Remove="Char\rena.xaml" />
+    <None Remove="Char\rika.xaml" />
+    <None Remove="Char\satoko.xaml" />
+    <None Remove="Char\shion.xaml" />
     <None Remove="homePage.xaml" />
+    <None Remove="Info.xaml" />
     <None Remove="MainWindow.xaml" />
     <None Remove="settingPage.xaml" />
+    <None Remove="soundtrack.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,8 +60,8 @@
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Re_pc_sch.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -91,6 +112,18 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Update="Assets\BGM\shitsui.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\BGM\shizu.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\hanyuG.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\hanyuS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="Assets\Char\keiichi.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -115,6 +148,57 @@
     <Content Update="Assets\Char\renaS.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="Assets\Char\rikaC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\rikaS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\satokoC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\satokoS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\shionC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Char\shionS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\programIcon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="soundtrack.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Info.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Char\hanyu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Char\rika.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Char\satoko.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Char\shion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Char\mion.xaml">

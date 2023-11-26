@@ -10,45 +10,59 @@
     mc:Ignorable="d"
     Background="{ThemeResource SolidBackgroundFillColorTertiaryBrush}">
     <Grid Margin="5,5,5,5">
-        <StackPanel>
-            <InfoBar 
-                VerticalAlignment="Top" 
-                Width="Auto" Height="Auto" 
-                Margin="10,10,10,10" 
-                IsClosable="False" 
-                IsOpen="True" 
-                Severity="Warning" 
-                Title="Note!" 
-                Message="This is still WIP. If the layout is kinda bad in your opinion, open an issue or PR on Github. Thanks." />
-            <TextBlock FontSize="40" FontWeight="SemiBold" Margin="10,5,5,5">
-                Home
-            </TextBlock>
-            <TextBlock FontSize="20" FontWeight="SemiBold" Margin="10,5,5,5">
-                Characters
-            </TextBlock>
-            <!-- How do these work?! -->
-            <GridView IsItemClickEnabled="True" ItemClick="GridView_ItemClick" MaxHeight="500" Padding="5,5,5,5" ItemsSource="{x:Bind Chars}">
-                <GridView.ItemTemplate>
-                    <DataTemplate x:DataType="data:Character">
-                        <StackPanel Margin="20">
-                            <TextBlock Text="{Binding Name}" FontFamily="Bold" FontSize="28"/>
-                            <Image Source="{Binding ImgSrc}" Height="200" Margin="5,5,5,-5"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </GridView.ItemTemplate>
-            </GridView>
-            <TextBlock x:Name="SelectionOutput">[]</TextBlock>
-        </StackPanel>
-        <!-- I need to study bindings :p -->
-        <Expander 
-            x:Name="versionExpander" 
-            IsEnabled="False" IsExpanded="False" 
-            ExpandDirection="Up" 
-            VerticalAlignment="Bottom" 
-            Header="Version [n/a]" 
-            Margin="10,10,10,10" 
-            Width="325" 
-            MaxWidth="325" 
-            />
+        <ScrollViewer>
+            <StackPanel>
+                <InfoBar 
+                    VerticalAlignment="Top" 
+                    Width="Auto" Height="Auto" 
+                    Margin="10,10,10,10" 
+                    IsClosable="False" 
+                    IsOpen="True" 
+                    Severity="Warning" 
+                    Title="Note!" 
+                    Message="This is still WIP. If the layout is kinda bad in your opinion, open an issue or PR on Github. Thanks." />
+                <TextBlock FontSize="40" FontWeight="SemiBold" Margin="10,5,5,5">
+        Home
+                </TextBlock>
+                <TextBlock FontSize="20" FontWeight="SemiBold" Margin="20,20,20,20">
+        Main Characters
+                </TextBlock>
+                <!-- How do these work?! -->
+                <GridView BorderThickness="1" BorderBrush="{ThemeResource SolidBackgroundFillColorBaseBrush}" CornerRadius="5" Background="{ThemeResource SolidBackgroundFillColorSecondaryBrush}" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" MaxHeight="500" MaxWidth="900" Padding="5,5,5,5" ItemsSource="{x:Bind Chars}">
+                    <GridView.ItemTemplate>
+                        <DataTemplate x:DataType="data:Character">
+                            <StackPanel Margin="20">
+                                <TextBlock Text="{Binding Name}" FontFamily="Bold" FontSize="28"/>
+                                <Image Source="{Binding ImgSrc}" Height="200" Margin="5,5,5,-5"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+                <TextBlock FontSize="20" FontWeight="SemiBold" Margin="20,20,20,20">
+        Supporting Characters
+                </TextBlock>
+                <GridView BorderThickness="1" BorderBrush="{ThemeResource SolidBackgroundFillColorBaseBrush}" CornerRadius="5" Background="{ThemeResource SolidBackgroundFillColorSecondary}" IsItemClickEnabled="True" MaxHeight="500" MaxWidth="900" Padding="5,5,5,5" ItemsSource="{x:Bind Chars}">
+                    <GridView.ItemTemplate>
+                        <DataTemplate x:DataType="data:Character">
+                            <StackPanel Margin="20">
+                                <TextBlock Text="{Binding Name}" FontFamily="Bold" FontSize="28"/>
+                                <Image Source="{Binding ImgSrc}" Height="200" Margin="5,5,5,-5"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+                <!-- I need to study bindings :p -->
+                <Expander 
+                    x:Name="versionExpander" 
+                    IsEnabled="False" IsExpanded="False" 
+                    ExpandDirection="Up" 
+                    VerticalAlignment="Bottom" 
+                    Header="Version [n/a]" 
+                    Margin="10,10,10,10" 
+                    Width="325" 
+                    MaxWidth="325" 
+                    />
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
